@@ -1,0 +1,2 @@
+location,date,avg_probability,max_probability,high_risk_percentage,risk_distribution
+Los Angeles,2025-10-26,0.0,0.0,0.0,{'Low': 20}
