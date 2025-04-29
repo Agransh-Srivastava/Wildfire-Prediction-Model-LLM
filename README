@@ -3,28 +3,32 @@ This is step by step to ensure all running successfully:
  
  python -m venv venv
 
-2. Activate the virtual environment (Windows) by using this command:
+2. Run the following command to bypass the execution policy:
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+3. Activate the virtual environment by using this command:
 
 .\venv\Scripts\activate
 
-3. Then run this command to install all requirements:
+4. Then run this command to install all requirements:
 
 pip install -r requirements.txt
 
-4. Then, you need to download ollama to run LLM Model locally at https://ollama.com/
+5. Then, you need to download ollama to run LLM Model locally at https://ollama.com/
 
-5. After you're done downloading it, install it in your system.
+6. After you're done downloading it, install it in your system.
 
-6. Then open Command Prompt (CMD), then run this command:
+7. Then open Command Prompt (CMD), then run this command:
 
 ollama pull llama3
 
-7. After it finishes, run this command to run llamma3:
+8. After it finishes, run this command to run llamma3:
 
 ollama run llama3
 
-8. After thats done, you now have llama3 run on your local machine.
+9. After thats done, you now have llama3 run on your local machine.
 
-9. After thats done, you can go back to the folder before then run this command:
+10. After thats done, you can go back to the folder before then run this command:
 
 streamlit run app.py
