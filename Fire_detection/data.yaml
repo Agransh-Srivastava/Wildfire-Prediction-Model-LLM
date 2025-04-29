@@ -1,0 +1,8 @@
+path: /content/drive/MyDrive/wildfire
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: smoke
+  1: fire
