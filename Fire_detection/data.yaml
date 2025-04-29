@@ -1,4 +1,4 @@
-path: Fire_detection
+path: D-fire
 train: train/images
 val: val/images
 test: test/images
