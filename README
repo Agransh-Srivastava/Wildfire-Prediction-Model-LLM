@@ -1,5 +1,5 @@
 This is step by step to ensure all running successfully:
-1. Run this command in windows powershell (or terminal):
+1. Open terminal and make sure that you cd into the project directory and then run this command in terminal:
  
  python -m venv venv
 
