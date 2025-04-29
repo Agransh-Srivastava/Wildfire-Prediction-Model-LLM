@@ -27,8 +27,11 @@ requirements.txt   # Python package dependencies
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Agransh-Srivastava/Wildfire-Prediction-Model-LLM.git
+cd Wildfire-Prediction-Model-LLM
+git checkout In_image_fire_detection
+cd Fire_detection
+
 ```
 
 ### 2. Install Required Python Packages
