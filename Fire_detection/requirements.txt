@@ -1,0 +1,5 @@
+ultralytics==8.0.206
+openai==0.28
+streamlit==1.32.2
+pillow==10.2.0
+numpy==1.26.4
