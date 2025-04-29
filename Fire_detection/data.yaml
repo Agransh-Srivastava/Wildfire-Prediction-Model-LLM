@@ -1,4 +1,4 @@
-path: /content/drive/MyDrive/wildfire
+path: Fire_detection
 train: train/images
 val: val/images
 test: test/images
