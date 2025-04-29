@@ -1,4 +1,4 @@
-# 🔥 Wildfire Detection using Areal Images
+# 🔥 Wildfire Detection using Aerial Images
 
 This project combines **YOLOv8** for real-time wildfire (fire and smoke) detection and **ChatGPT** for generating professional emergency reports based on detection outputs.
 
