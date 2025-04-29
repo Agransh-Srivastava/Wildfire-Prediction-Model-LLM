@@ -3,6 +3,20 @@
 This project combines **YOLOv8** for real-time wildfire (fire and smoke) detection and **ChatGPT** for generating professional emergency reports based on detection outputs.
 
 ---
+## 📊 Dataset: [D-Fire](https://drive.google.com/drive/folders/1DWgsQLVgkkLM8m-VcugHNpD5WYDbjYp5)
+
+- **Name:** D-Fire: An Image Dataset for Fire and Smoke Detection
+- **Authors:** Researchers from Gaia, Solutions on Demand (GAIA)
+- **Description:**  
+  D-Fire is a curated image dataset specifically designed for fire and smoke detection tasks.  
+  It contains **over 21,000 images** covering diverse fire and smoke occurrences suitable for machine learning, deep learning, and object detection applications.
+
+- **Usage in this Project:**  
+  The D-Fire dataset is used to train the YOLOv8 model to accurately detect fire and smoke regions in images. It is organized into `train/`, `val/`, and `test/` subsets as per YOLO data format.
+
+---
+
+---
 
 ## 📂 Project Structure
 
