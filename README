@@ -7,24 +7,24 @@ This is step by step to ensure all running successfully:
 
 .\venv\Scripts\activate
 
-2. Then run this command to install all requirements:
+3. Then run this command to install all requirements:
 
 pip install -r requirements.txt
 
-3. Then, you need to download ollama to run LLM Model locally at https://ollama.com/
+4. Then, you need to download ollama to run LLM Model locally at https://ollama.com/
 
-4. After you're done downloading it, install it in your system.
+5. After you're done downloading it, install it in your system.
 
-5. Then open Command Prompt (CMD), then run this command:
+6. Then open Command Prompt (CMD), then run this command:
 
 ollama pull llama3
 
-6. After it finishes, run this command to run llamma3:
+7. After it finishes, run this command to run llamma3:
 
 ollama run llama3
 
-7. After thats done, you now have llama3 run on your local machine.
+8. After thats done, you now have llama3 run on your local machine.
 
-8. After thats done, you can go back to the folder before then run this command:
+9. After thats done, you can go back to the folder before then run this command:
 
 streamlit run app.py
