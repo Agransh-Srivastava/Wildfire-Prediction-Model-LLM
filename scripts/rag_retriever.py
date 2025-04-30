@@ -597,10 +597,15 @@ Instructions:
 
 | Location | Latitude | Longitude | Predicted Start Date | Risk Level | Estimated Probability |
 
-- For the location column, use the specific city, county or region name (e.g., "Los Angeles")
-- Always include accurate Latitude and Longitude for the location in the table - this is REQUIRED for map visualization
+IMPORTANT: The Latitude and Longitude columns MUST contain numerical coordinates, NOT text descriptions.
 
-Here are ACCURATE coordinates for key California locations to use:
+For example, this is the CORRECT format:
+| San Jose | 37.3382 | -121.8863 | 2026-07-15 | Moderate | 67.0% |
+
+This is INCORRECT and will break the map functionality:
+| San Jose | 37.3382 | San Jose | 2026-07-15 | Moderate | 67.0% |
+
+Here are ACCURATE coordinates for key California locations:
 - San Francisco: 37.7749, -122.4194
 - Los Angeles: 34.0522, -118.2437
 - San Diego: 32.7157, -117.1611
@@ -628,6 +633,8 @@ Here are ACCURATE coordinates for key California locations to use:
 - Central California: 36.7396, -119.7844
 
 - The Risk Level should be one of: Low, Low-Moderate, Moderate, High, or Extreme
+- The Estimated Probability should be a percentage value
+- The Predicted Start Date should be in YYYY-MM-DD format
 - Do not invent external links or make up fake official sources.
 - Be clear, transparent, and ethical.
 - If providing a prediction for a specific time period (month/season), clearly state this is for that time period.
