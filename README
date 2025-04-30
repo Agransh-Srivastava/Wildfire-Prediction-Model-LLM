@@ -1,4 +1,6 @@
-This is step by step to ensure all running successfully:
+There are two branches in this repo, one is for the Wildfire-Prediction_Model-LLM and the other is for fire image detection
+
+To run the Wildfire-Prediction-Model-LLM, stay in the main branch and run the following steps:
 1. Open terminal and make sure that you cd into the project directory and then run this command in terminal:
  
  python -m venv venv
@@ -32,3 +34,7 @@ ollama run llama3
 10. After thats done, you can go back to the folder before then run this command:
 
 streamlit run app.py
+
+
+To run the fire image detection, open the other branch and you can get the readme instructions from there
+
