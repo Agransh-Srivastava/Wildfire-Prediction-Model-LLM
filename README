@@ -1,6 +1,7 @@
 This is step by step to ensure all running successfully:
+
 1. Open terminal and make sure that you cd into the project directory and then run this command in terminal:
- 
+
  python -m venv venv
 
 2. Run the following command to bypass the execution policy:
@@ -15,7 +16,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 pip install -r requirements.txt
 
-5. Then, you need to download ollama to run LLM Model locally at https://ollama.com/
+5. Then, you need to download ollama to run LLM Model locally at <https://ollama.com/>
 
 6. After you're done downloading it, install it in your system.
 
