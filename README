@@ -36,5 +36,5 @@ ollama run llama3
 streamlit run app.py
 
 
-To run the fire image detection, open the other branch and you can get the readme instructions from there
+To run the fire image detection, open the other branch and you can get the readme instructions from there by going inside the fire detection folder and opening the readme file
 
