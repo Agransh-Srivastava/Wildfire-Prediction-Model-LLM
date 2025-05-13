@@ -31,4 +31,4 @@ ollama run llama3
 
 10. After thats done, you can go back to the folder before then run this command:
 
-streamlit run app.py
+python -m streamlit run app.py
