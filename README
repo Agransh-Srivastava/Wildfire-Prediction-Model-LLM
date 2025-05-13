@@ -3,7 +3,7 @@ This is step by step to ensure all running successfully:
  
  python -m venv venv
 
-2. Run the following command to bypass the execution policy:
+2. Run the following command to bypass the execution policy (if it does not work thats fine, you can go to the next step):
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
