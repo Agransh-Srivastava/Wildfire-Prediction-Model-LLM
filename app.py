@@ -30,7 +30,7 @@ PREDICTIONS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data
 os.makedirs(PREDICTIONS_DIR, exist_ok=True)
 
 # === SETTINGS ===
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 OPENAI_MODEL = "gpt-4o"
 CONFIDENCE_THRESHOLD = 0.3
 
